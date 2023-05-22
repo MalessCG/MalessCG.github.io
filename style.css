@@ -71,8 +71,8 @@ header{
     position: absolute;
     background-color: #666;
     left: 0;
-    width: 100vh;
-    height: 100vh;
+    width: 50%;
+    height: 100%;
 }
 
 .conteiner2{
@@ -80,6 +80,6 @@ header{
     position: absolute;
     background-color: #999;
     right: 0;
-    width: 100vh;
-    height: 100vh;
+    width: 50%;
+    height: 100%;
 }
