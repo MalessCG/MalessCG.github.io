@@ -11,41 +11,79 @@ body{
 }
 
 header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 20px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 100;
 }
 
+.home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    
+}
+
+.home h2{
+    position: absolute;
+    text-align: center;
+    font-size: 5em;
+    color: #ee6814;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    user-select: none; 
+}
+
+.door1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 0;
+    height: 0;
+    border-right: 50vh solid transparent;
+    border-top: 15vh solid transparent;
+    border-left: 35vh solid #f0ad4e;
+    border-bottom: 20vh solid #f0ad4e;
+    
+}
+.door2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    width: 0;
+    height: 0;
+    border-right: 50vh solid #f0ad4e;
+    border-top: 20vh solid transparent;
+    border-left: 35vh solid transparent;
+    border-bottom: 15vh solid #f0ad4e;
+    
+}
 
 .navigation a{
+    top: 0;
     text-decoration:none;
     font-size: 1.6em;
     color: #fff;
     font-weight: 650 ;
-    padding: 6px 15px;
+    padding: 5px 12px;
     margin: 0 10px;
     border-radius: 20px;
     user-select: none; 
 }
 
 .navigation a:hover{
-    background-color: #111;
-    color: #fff;
-}
-
-.home{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #333;
+    background-color: #fff;
+    color: #111;
 }
 
 
@@ -56,15 +94,6 @@ header{
     align-items: center;
     height: 100vh;
     background-color: #111;
-}
-
-
-#text{
-    position: absolute;
-    font-size: 5em;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-    user-select: none; 
 }
 
 
